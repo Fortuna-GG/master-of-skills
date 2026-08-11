@@ -1,0 +1,15 @@
+﻿{
+  "name": "master-of-skills",
+  "version": "1.0.0",
+  "private": true,
+  "description": "技能管家：Codex 插件 / 技能 / MCP 服务器本地管理看板",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "scan": "node scripts/scan-cli.js"
+  },
+  "dependencies": {
+    "@iarna/toml": "^2.2.5",
+    "express": "^4.19.2"
+  }
+}

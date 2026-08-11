@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>技能管家 · Master of Skills</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠️</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-logo">🛠️</span>
+    <div>
+      <h1>技能管家</h1>
+      <p class="brand-sub">Codex 插件 · 技能 · MCP 管理看板</p>
+    </div>
+  </div>
+  <nav class="tabs" id="tabs">
+    <button class="tab active" data-tab="home">🏠 首页</button>
+    <button class="tab" data-tab="library">🧰 技能库</button>
+    <button class="tab" data-tab="quickref">⚡ 场景速查</button>
+    <button class="tab" data-tab="settings">⚙️ 设置</button>
+  </nav>
+</header>
+
+<main id="app">
+  <section id="view-home" class="view"></section>
+  <section id="view-library" class="view" hidden></section>
+  <section id="view-quickref" class="view" hidden></section>
+  <section id="view-settings" class="view" hidden></section>
+</main>
+
+<!-- 详情弹窗 -->
+<div id="modal" class="modal-mask" hidden>
+  <div class="modal">
+    <div class="modal-head">
+      <div>
+        <h2 id="modal-title"></h2>
+        <div id="modal-badges" class="badge-row"></div>
+      </div>
+      <button class="icon-btn" id="modal-close" title="关闭">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="field">
+        <label>中文说明（可直接编辑）</label>
+        <textarea id="edit-notes" rows="3"></textarea>
+      </div>
+      <div class="field">
+        <label>分类</label>
+        <select id="edit-category"></select>
+      </div>
+      <div class="field">
+        <label>官方英文简介</label>
+        <div class="desc-en" id="modal-desc"></div>
+      </div>
+      <div class="meta-grid" id="modal-meta"></div>
+      <div class="field">
+        <label>来源位置</label>
+        <ul class="src-list" id="modal-sources"></ul>
+      </div>
+    </div>
+    <div class="modal-foot">
+      <button id="btn-use" class="btn ghost">🕐 记录最近使用</button>
+      <label class="fav-toggle"><input type="checkbox" id="edit-fav"> ⭐ 收藏</label>
+      <button id="btn-save" class="btn primary">保存修改</button>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

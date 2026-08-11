@@ -1,0 +1,3476 @@
+{
+  "scannedAt": "2026-08-11T12:27:32.364Z",
+  "items": [
+    {
+      "id": "plugin:browser",
+      "type": "plugin",
+      "name": "browser",
+      "displayName": "Browser",
+      "marketplace": "openai-bundled",
+      "version": "26.803.41515",
+      "enabled": true,
+      "category": "浏览器与自动化",
+      "descriptionEn": "Browser lets ChatGPT open and control the in-app browser, mainly for local development pages and files. Use it to navigate, inspect, click, type, and take screenshots while testing pages inside ChatGPT.",
+      "keywords": [
+        "browser",
+        "automation",
+        "chrome",
+        "iab",
+        "node-repl",
+        "browser-client"
+      ],
+      "capabilities": [
+        "Interactive",
+        "Read",
+        "Write"
+      ],
+      "author": "OpenAI",
+      "homepage": "https://github.com/openai/openai/tree/master/lib/browser_use/plugin",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-bundled\\browser\\26.803.41515"
+      ],
+      "notesZh": "控制 Codex 内置浏览器：打开本地网页、点击、输入、截图，主要用于测试前端页面。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:control-in-app-browser",
+      "type": "skill",
+      "name": "control-in-app-browser",
+      "displayName": "control-in-app-browser",
+      "marketplace": "openai-bundled",
+      "version": "26.803.41515",
+      "enabled": true,
+      "category": "浏览器与自动化",
+      "descriptionEn": "Control the in-app Browser for opening, navigating, inspecting visible or interactive page state, clicking, typing, screenshots, and local web testing. It can have existing signed-in sessions. For semantic operations on linked resources, prefer a purpose-built connector, API, or CLI when available.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "OpenAI",
+      "homepage": "",
+      "fromPlugin": "browser",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-bundled\\browser\\26.803.41515\\skills\\control-in-app-browser\\SKILL.md"
+      ],
+      "notesZh": "控制应用内浏览器：打开页面、点击、输入、截图、本地网页测试。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "plugin:visualize",
+      "type": "plugin",
+      "name": "visualize",
+      "displayName": "Visualize",
+      "marketplace": "openai-bundled",
+      "version": "1.0.20",
+      "enabled": true,
+      "category": "浏览器与自动化",
+      "descriptionEn": "Create interactive charts, maps, diagrams, simulations, 3D models, data explorers, and UI previews directly in your conversation. Filter data, select details, compare scenarios, and adjust inputs to see how the result changes.",
+      "keywords": [
+        "visualize",
+        "data visualization",
+        "chart",
+        "map",
+        "diagram",
+        "simulation",
+        "3d model",
+        "interactive",
+        "dashboard",
+        "data explorer",
+        "ui preview"
+      ],
+      "capabilities": [
+        "Interactive",
+        "Read",
+        "Write"
+      ],
+      "author": "OpenAI",
+      "homepage": "https://openai.com/",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-bundled\\visualize\\1.0.20",
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-bundled\\visualize\\1.0.20\\skills\\visualize\\SKILL.md"
+      ],
+      "notesZh": "在对话里直接生成图表、地图、模拟器、交互式工具和 UI 预览，适合做演示和探索。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "plugin:codex-security",
+      "type": "plugin",
+      "name": "codex-security",
+      "displayName": "Codex Security",
+      "marketplace": "openai-curated",
+      "version": "0.1.11",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Codex Security packages reusable workflows for security scans, analysis, validation, and investigation across code, diffs, and related artifacts.",
+      "keywords": [
+        "security",
+        "code-review",
+        "diff-review",
+        "appsec",
+        "threat-modeling"
+      ],
+      "capabilities": [
+        "Interactive",
+        "Read",
+        "Write"
+      ],
+      "author": "OpenAI",
+      "homepage": "https://developers.openai.com/codex/security",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\codex-security\\11c74d6b"
+      ],
+      "notesZh": "安全插件：对代码库/PR 做安全扫描、威胁建模、漏洞分析，自带 12 个配套技能。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:attack-path-analysis",
+      "type": "skill",
+      "name": "attack-path-analysis",
+      "displayName": "attack-path-analysis",
+      "marketplace": "openai-curated",
+      "version": "0.1.11",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Use when Codex is already in the attack-path-analysis phase of a security scan or the user explicitly asks to trace a security finding from source to sink and calibrate severity. Do not use as the primary trigger for full PR, commit, branch, patch, or repository scans.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "OpenAI",
+      "homepage": "",
+      "fromPlugin": "codex-security",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\codex-security\\11c74d6b\\skills\\attack-path-analysis\\SKILL.md"
+      ],
+      "notesZh": "安全扫描环节：追踪漏洞从源头到出口，校准严重级别。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:deep-security-scan",
+      "type": "skill",
+      "name": "deep-security-scan",
+      "displayName": "deep-security-scan",
+      "marketplace": "openai-curated",
+      "version": "0.1.11",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Use when the user asks for a deep, exhaustive, multi-pass, or variance-reducing repository-wide or scoped-path Codex Security scan. Run repeated independent discovery passes over one resolved scope with worker-specific threat models, semantically merge candidates, synthesize one canonical validation threat model, then run validation, attack-path analysis, canonical JSON completion, and generated reporting once. Do not use for PRs, commits, branch diffs, or working-tree diffs.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "OpenAI",
+      "homepage": "",
+      "fromPlugin": "codex-security",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\codex-security\\11c74d6b\\skills\\deep-security-scan\\SKILL.md"
+      ],
+      "notesZh": "深度安全扫描：多轮独立扫描降低漏报率。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:finding-discovery",
+      "type": "skill",
+      "name": "finding-discovery",
+      "displayName": "finding-discovery",
+      "marketplace": "openai-curated",
+      "version": "0.1.11",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Use when Codex is already in the finding-discovery phase of a security scan or the user explicitly asks to discover candidate security findings in a repository or code change. Do not use as the primary trigger for full PR, commit, branch, patch, or repository scans.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "OpenAI",
+      "homepage": "",
+      "fromPlugin": "codex-security",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\codex-security\\11c74d6b\\skills\\finding-discovery\\SKILL.md"
+      ],
+      "notesZh": "在代码库中发掘候选安全问题。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:fix-finding",
+      "type": "skill",
+      "name": "fix-finding",
+      "displayName": "fix-finding",
+      "marketplace": "openai-curated",
+      "version": "0.1.11",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Use when the user explicitly asks to fix and verify a validated or plausible security finding. Do not use as the primary trigger for full PR, commit, branch, patch, or repository scans.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "OpenAI",
+      "homepage": "",
+      "fromPlugin": "codex-security",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\codex-security\\11c74d6b\\skills\\fix-finding\\SKILL.md"
+      ],
+      "notesZh": "修复并验证一个安全发现。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:propose-security-hardening",
+      "type": "skill",
+      "name": "propose-security-hardening",
+      "displayName": "propose-security-hardening",
+      "marketplace": "openai-curated",
+      "version": "0.1.11",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Develop evidence-backed structural and architectural security hardening proposals from vulnerability disclosures, supplied findings, incident or assessment documents, source code, or a completed Codex Security scan. Use when a user asks for systemic improvements, alternatives beyond per-finding patches, before-and-after security architecture views, engineering tradeoff analysis, or an implementation-ready plan for a selected hardening option. Also use automatically after a Codex Security scan with reportable findings when the top-level scan workflow requests final-report hardening guidance.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "OpenAI",
+      "homepage": "",
+      "fromPlugin": "codex-security",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\codex-security\\11c74d6b\\skills\\propose-security-hardening\\SKILL.md"
+      ],
+      "notesZh": "基于证据提出结构性安全加固方案。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:security-diff-scan",
+      "type": "skill",
+      "name": "security-diff-scan",
+      "displayName": "security-diff-scan",
+      "marketplace": "openai-curated",
+      "version": "0.1.11",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Use when the user asks for a security review of a pull request, commit, branch diff, working-tree patch, or other Git-backed change set.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "OpenAI",
+      "homepage": "",
+      "fromPlugin": "codex-security",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\codex-security\\11c74d6b\\skills\\security-diff-scan\\SKILL.md"
+      ],
+      "notesZh": "对 PR/提交/分支差异做安全审查。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:security-scan",
+      "type": "skill",
+      "name": "security-scan",
+      "displayName": "security-scan",
+      "marketplace": "openai-curated",
+      "version": "0.1.11",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Use for a standard, single-pass security audit of an entire repository or a scoped path, package folder, or submodule with no diff to review.  This is the default repository scan.  Do not use for PR/commit/branch/working-tree diffs, or for deep, multi-pass, or variance-reducing scans.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "OpenAI",
+      "homepage": "",
+      "fromPlugin": "codex-security",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\codex-security\\11c74d6b\\skills\\security-scan\\SKILL.md"
+      ],
+      "notesZh": "默认的整库单轮安全审计。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:threat-model",
+      "type": "skill",
+      "name": "threat-model",
+      "displayName": "threat-model",
+      "marketplace": "openai-curated",
+      "version": "0.1.11",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Use when Codex is already in the threat-modeling phase of a security scan, the user explicitly invokes $threat-model, or the user explicitly asks to create, update, or persist a repository threat model. Do not use as the primary trigger for full PR, commit, branch, patch, or repository scans.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "OpenAI",
+      "homepage": "",
+      "fromPlugin": "codex-security",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\codex-security\\11c74d6b\\skills\\threat-model\\SKILL.md"
+      ],
+      "notesZh": "建立或更新仓库的威胁模型。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:track-findings",
+      "type": "skill",
+      "name": "track-findings",
+      "displayName": "track-findings",
+      "marketplace": "openai-curated",
+      "version": "0.1.11",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Track validated Codex Security findings in Linear, Jira, GitHub issues, or draft GitHub security advisories. Use it for one finding or an explicitly selected batch of up to 25 findings tracked as Linear, Jira, or GitHub issues. Includes duplicate checks, exact previews, approval-gated writes, and readback. Do not use it for scans or fixes.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "OpenAI",
+      "homepage": "",
+      "fromPlugin": "codex-security",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\codex-security\\11c74d6b\\skills\\track-findings\\SKILL.md"
+      ],
+      "notesZh": "把安全发现跟踪到 Linear/Jira/GitHub 里。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:triage-finding",
+      "type": "skill",
+      "name": "triage-finding",
+      "displayName": "triage-finding",
+      "marketplace": "openai-curated",
+      "version": "0.1.11",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Use when the user supplies or imports existing security findings, vulnerability reports, or security/vulnerability Jira/Linear tickets from scanners, advisories, GitHub, Atlassian Rovo, Linear, or similar backlog sources and wants static repo-impact triage. Do not use for discovery, duplicate-bug triage, validation, or fixes.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "OpenAI",
+      "homepage": "",
+      "fromPlugin": "codex-security",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\codex-security\\11c74d6b\\skills\\triage-finding\\SKILL.md"
+      ],
+      "notesZh": "对导入的漏洞报告做分级处理。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:validation",
+      "type": "skill",
+      "name": "validation",
+      "displayName": "validation",
+      "marketplace": "openai-curated",
+      "version": "0.1.11",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Use when Codex is already in the validation phase of a security scan or the user explicitly asks to determine whether one or more candidate security findings are valid. Do not use as the primary trigger for full PR, commit, branch, patch, or repository scans.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "OpenAI",
+      "homepage": "",
+      "fromPlugin": "codex-security",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\codex-security\\11c74d6b\\skills\\validation\\SKILL.md"
+      ],
+      "notesZh": "验证候选安全问题是否真实、是否值得修。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:vulnerability-writeup",
+      "type": "skill",
+      "name": "vulnerability-writeup",
+      "displayName": "vulnerability-writeup",
+      "marketplace": "openai-curated",
+      "version": "0.1.11",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Write up vulnerabilities from disclosure documents, rough notes, supplied findings, PoCs, source code, or Codex Security scan output into polished, self-contained, source-backed reports. Use for one vulnerability or a disclosure campaign; a Codex Security scan is optional.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "OpenAI",
+      "homepage": "",
+      "fromPlugin": "codex-security",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\codex-security\\11c74d6b\\skills\\vulnerability-writeup\\SKILL.md"
+      ],
+      "notesZh": "把漏洞信息写成规范、有据可查的漏洞报告。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "plugin:github",
+      "type": "plugin",
+      "name": "github",
+      "displayName": "GitHub",
+      "marketplace": "openai-curated",
+      "version": "0.1.6",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Use GitHub to inspect repositories, review pull requests, address feedback, debug failing Actions checks, and prepare code changes for review through a connector-first workflow with targeted CLI fallbacks.",
+      "keywords": [
+        "github",
+        "pull-request",
+        "code-review",
+        "issues",
+        "ci",
+        "actions"
+      ],
+      "capabilities": [
+        "Interactive",
+        "Write"
+      ],
+      "author": "OpenAI",
+      "homepage": "https://github.com/",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\github\\11c74d6b",
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\github\\11c74d6b\\skills\\github\\SKILL.md"
+      ],
+      "notesZh": "GitHub 集成：查看仓库、审查 PR、回复评审意见、调试 Actions 失败、发布改动。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:gh-address-comments",
+      "type": "skill",
+      "name": "gh-address-comments",
+      "displayName": "gh-address-comments",
+      "marketplace": "openai-curated",
+      "version": "0.1.6",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Address actionable GitHub pull request review feedback. Use when the user wants to inspect unresolved review threads, requested changes, or inline review comments on a PR, then implement selected fixes. Use the GitHub app for PR metadata and flat comment reads, and use the bundled GraphQL script via `gh` whenever thread-level state, resolution status, or inline review context matters.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "OpenAI",
+      "homepage": "",
+      "fromPlugin": "github",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\github\\11c74d6b\\skills\\gh-address-comments\\SKILL.md"
+      ],
+      "notesZh": "处理 GitHub PR 上的评审意见：查看未解决讨论、实现修复。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:gh-fix-ci",
+      "type": "skill",
+      "name": "gh-fix-ci",
+      "displayName": "gh-fix-ci",
+      "marketplace": "openai-curated",
+      "version": "0.1.6",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions. Use the GitHub app from this plugin for PR metadata and patch context, and use `gh` for Actions check and log inspection before implementing any approved fix.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "OpenAI",
+      "homepage": "",
+      "fromPlugin": "github",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\github\\11c74d6b\\skills\\gh-fix-ci\\SKILL.md"
+      ],
+      "notesZh": "排查并修复 GitHub Actions 里失败的检查。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:yeet",
+      "type": "skill",
+      "name": "yeet",
+      "displayName": "yeet",
+      "marketplace": "openai-curated",
+      "version": "0.1.6",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Publish local changes to GitHub by confirming scope, committing intentionally, pushing the branch, and opening a draft PR through the GitHub app from this plugin, with `gh` used only as a fallback where connector coverage is insufficient.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "OpenAI",
+      "homepage": "",
+      "fromPlugin": "github",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\github\\11c74d6b\\skills\\yeet\\SKILL.md"
+      ],
+      "notesZh": "把本地改动一键提交、推送并开草稿 PR。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "plugin:sentry",
+      "type": "plugin",
+      "name": "sentry",
+      "displayName": "Sentry",
+      "marketplace": "openai-curated",
+      "version": "0.1.2",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Use Sentry skills to inspect recent issues, review events, and summarize production errors with a read-only workflow.",
+      "keywords": [
+        "sentry",
+        "observability",
+        "triage"
+      ],
+      "capabilities": [
+        "Interactive",
+        "Write"
+      ],
+      "author": "OpenAI",
+      "homepage": "https://sentry.io/",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\sentry\\11c74d6b",
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\sentry\\11c74d6b\\skills\\sentry\\SKILL.md"
+      ],
+      "notesZh": "接入 Sentry 错误监控：查看线上报错、审查事件、汇总生产环境错误。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "plugin:superpowers",
+      "type": "plugin",
+      "name": "superpowers",
+      "displayName": "Superpowers",
+      "marketplace": "openai-curated",
+      "version": "5.1.3",
+      "enabled": true,
+      "category": "头脑风暴与规划",
+      "descriptionEn": "Use Superpowers to guide agent work through brainstorming, implementation planning, test-driven development, systematic debugging, parallel execution, code review, and finish-the-branch workflows.",
+      "keywords": [
+        "brainstorming",
+        "subagent-driven-development",
+        "skills",
+        "planning",
+        "tdd",
+        "debugging",
+        "code-review",
+        "workflow"
+      ],
+      "capabilities": [
+        "Interactive",
+        "Read",
+        "Write"
+      ],
+      "author": "Jesse Vincent",
+      "homepage": "https://github.com/obra/superpowers",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\superpowers\\11c74d6b"
+      ],
+      "notesZh": "Agent 工作流引擎：头脑风暴 → 写计划 → TDD 实现 → 验证，配套 14 个技能。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:brainstorming",
+      "type": "skill",
+      "name": "brainstorming",
+      "displayName": "brainstorming",
+      "marketplace": "openai-curated",
+      "version": "5.1.3",
+      "enabled": true,
+      "category": "头脑风暴与规划",
+      "descriptionEn": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Jesse Vincent",
+      "homepage": "",
+      "fromPlugin": "superpowers",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\superpowers\\11c74d6b\\skills\\brainstorming\\SKILL.md"
+      ],
+      "notesZh": "头脑风暴工作流：系统化梳理想法，想清楚再动手。",
+      "favorite": true,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:dispatching-parallel-agents",
+      "type": "skill",
+      "name": "dispatching-parallel-agents",
+      "displayName": "dispatching-parallel-agents",
+      "marketplace": "openai-curated",
+      "version": "5.1.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Jesse Vincent",
+      "homepage": "",
+      "fromPlugin": "superpowers",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\superpowers\\11c74d6b\\skills\\dispatching-parallel-agents\\SKILL.md"
+      ],
+      "notesZh": "把任务拆给多个并行子代理同时干活，提高效率。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:executing-plans",
+      "type": "skill",
+      "name": "executing-plans",
+      "displayName": "executing-plans",
+      "marketplace": "openai-curated",
+      "version": "5.1.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Jesse Vincent",
+      "homepage": "",
+      "fromPlugin": "superpowers",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\superpowers\\11c74d6b\\skills\\executing-plans\\SKILL.md"
+      ],
+      "notesZh": "按写好的计划逐步执行实现，边做边验证。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:finishing-a-development-branch",
+      "type": "skill",
+      "name": "finishing-a-development-branch",
+      "displayName": "finishing-a-development-branch",
+      "marketplace": "openai-curated",
+      "version": "5.1.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Jesse Vincent",
+      "homepage": "",
+      "fromPlugin": "superpowers",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\superpowers\\11c74d6b\\skills\\finishing-a-development-branch\\SKILL.md"
+      ],
+      "notesZh": "开发分支收尾：验证、整理、提交，干净地结束一个分支。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:receiving-code-review",
+      "type": "skill",
+      "name": "receiving-code-review",
+      "displayName": "receiving-code-review",
+      "marketplace": "openai-curated",
+      "version": "5.1.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Jesse Vincent",
+      "homepage": "",
+      "fromPlugin": "superpowers",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\superpowers\\11c74d6b\\skills\\receiving-code-review\\SKILL.md"
+      ],
+      "notesZh": "以正确心态接收代码评审意见，并逐条改进。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:requesting-code-review",
+      "type": "skill",
+      "name": "requesting-code-review",
+      "displayName": "requesting-code-review",
+      "marketplace": "openai-curated",
+      "version": "5.1.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Jesse Vincent",
+      "homepage": "",
+      "fromPlugin": "superpowers",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\superpowers\\11c74d6b\\skills\\requesting-code-review\\SKILL.md"
+      ],
+      "notesZh": "发起高质量的代码评审请求，让别人能高效审查。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:subagent-driven-development",
+      "type": "skill",
+      "name": "subagent-driven-development",
+      "displayName": "subagent-driven-development",
+      "marketplace": "openai-curated",
+      "version": "5.1.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Use when executing implementation plans with independent tasks in the current session",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Jesse Vincent",
+      "homepage": "",
+      "fromPlugin": "superpowers",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\superpowers\\11c74d6b\\skills\\subagent-driven-development\\SKILL.md"
+      ],
+      "notesZh": "子代理驱动开发：主代理负责调度，子代理负责具体实现。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:systematic-debugging",
+      "type": "skill",
+      "name": "systematic-debugging",
+      "displayName": "systematic-debugging",
+      "marketplace": "openai-curated",
+      "version": "5.1.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Jesse Vincent",
+      "homepage": "",
+      "fromPlugin": "superpowers",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\superpowers\\11c74d6b\\skills\\systematic-debugging\\SKILL.md"
+      ],
+      "notesZh": "系统化排错：先复现 → 找根因 → 再修复，不瞎猜。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:test-driven-development",
+      "type": "skill",
+      "name": "test-driven-development",
+      "displayName": "test-driven-development",
+      "marketplace": "openai-curated",
+      "version": "5.1.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Use when implementing any feature or bugfix, before writing implementation code",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Jesse Vincent",
+      "homepage": "",
+      "fromPlugin": "superpowers",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\superpowers\\11c74d6b\\skills\\test-driven-development\\SKILL.md"
+      ],
+      "notesZh": "TDD：先写测试再写实现（红-绿-重构循环）。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:using-git-worktrees",
+      "type": "skill",
+      "name": "using-git-worktrees",
+      "displayName": "using-git-worktrees",
+      "marketplace": "openai-curated",
+      "version": "5.1.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Jesse Vincent",
+      "homepage": "",
+      "fromPlugin": "superpowers",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\superpowers\\11c74d6b\\skills\\using-git-worktrees\\SKILL.md"
+      ],
+      "notesZh": "用 git worktree 建隔离工作区，多个任务并行开发互不干扰。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:using-superpowers",
+      "type": "skill",
+      "name": "using-superpowers",
+      "displayName": "using-superpowers",
+      "marketplace": "openai-curated",
+      "version": "5.1.3",
+      "enabled": true,
+      "category": "系统与技能管理",
+      "descriptionEn": "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Jesse Vincent",
+      "homepage": "",
+      "fromPlugin": "superpowers",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\superpowers\\11c74d6b\\skills\\using-superpowers\\SKILL.md"
+      ],
+      "notesZh": "对话开始时的引导技能：先找可用技能再响应，而不是直接开干。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:verification-before-completion",
+      "type": "skill",
+      "name": "verification-before-completion",
+      "displayName": "verification-before-completion",
+      "marketplace": "openai-curated",
+      "version": "5.1.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Jesse Vincent",
+      "homepage": "",
+      "fromPlugin": "superpowers",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\superpowers\\11c74d6b\\skills\\verification-before-completion\\SKILL.md"
+      ],
+      "notesZh": "声称\"做完了\"之前必须跑验证命令，用证据说话。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:writing-plans",
+      "type": "skill",
+      "name": "writing-plans",
+      "displayName": "writing-plans",
+      "marketplace": "openai-curated",
+      "version": "5.1.3",
+      "enabled": true,
+      "category": "头脑风暴与规划",
+      "descriptionEn": "Use when you have a spec or requirements for a multi-step task, before touching code",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Jesse Vincent",
+      "homepage": "",
+      "fromPlugin": "superpowers",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\superpowers\\11c74d6b\\skills\\writing-plans\\SKILL.md"
+      ],
+      "notesZh": "动手写代码前，把需求拆成可执行的多步骤计划。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:writing-skills",
+      "type": "skill",
+      "name": "writing-skills",
+      "displayName": "writing-skills",
+      "marketplace": "openai-curated",
+      "version": "5.1.3",
+      "enabled": true,
+      "category": "系统与技能管理",
+      "descriptionEn": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Jesse Vincent",
+      "homepage": "",
+      "fromPlugin": "superpowers",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\superpowers\\11c74d6b\\skills\\writing-skills\\SKILL.md"
+      ],
+      "notesZh": "创建、编辑、验证技能的全流程指导。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "plugin:vercel",
+      "type": "plugin",
+      "name": "vercel",
+      "displayName": "Vercel",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Bring Vercel ecosystem guidance into Codex with curated skills and the connected Vercel app. Packages the upstream vercel/vercel-plugin skills, agents, and commands under the local `vercel` plugin identity for the Codex plugin marketplace.",
+      "keywords": [
+        "vercel",
+        "nextjs",
+        "ai-sdk",
+        "turborepo",
+        "turbopack",
+        "workflow",
+        "deployment",
+        "edge-functions",
+        "serverless",
+        "ai-gateway",
+        "chat-sdk",
+        "chat-bot",
+        "slack-bot",
+        "discord-bot"
+      ],
+      "capabilities": [
+        "Interactive",
+        "Write"
+      ],
+      "author": "Vercel Labs",
+      "homepage": "https://vercel.com/",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b"
+      ],
+      "notesZh": "Vercel 平台全家桶：部署、环境变量、数据库、Next.js、AI SDK 等 47 个参考技能。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:agent-browser",
+      "type": "skill",
+      "name": "agent-browser",
+      "displayName": "agent-browser",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Browser automation CLI for AI agents. Use when the user needs to interact with websites, verify dev server output, test web apps, navigate pages, fill forms, click buttons, take screenshots, extract data, or automate any browser task. Also triggers when a dev server starts so you can verify it visually.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\agent-browser\\SKILL.md"
+      ],
+      "notesZh": "浏览器自动化 CLI：操作网页、填表、截图、抓数据。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:agent-browser-verify",
+      "type": "skill",
+      "name": "agent-browser-verify",
+      "displayName": "agent-browser-verify",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Automated browser verification for dev servers. Triggers when a dev server starts to run a visual gut-check with agent-browser — verifies the page loads, checks for console errors, validates key UI elements, and reports pass/fail before continuing.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\agent-browser-verify\\SKILL.md"
+      ],
+      "notesZh": "开发服务器启动后自动用浏览器做可视化验证，检查页面和控制台报错。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:ai-elements",
+      "type": "skill",
+      "name": "ai-elements",
+      "displayName": "ai-elements",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "AI Elements component library guidance — pre-built React components for AI interfaces built on shadcn/ui. Use when building chat UIs, message displays, tool call rendering, streaming responses, reasoning panels, or any AI-native interface with the AI SDK.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\ai-elements\\SKILL.md"
+      ],
+      "notesZh": "AI 界面组件库（基于 shadcn/ui）：聊天界面、工具调用展示等。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:ai-gateway",
+      "type": "skill",
+      "name": "ai-gateway",
+      "displayName": "ai-gateway",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Vercel AI Gateway expert guidance. Use when configuring model routing, provider failover, cost tracking, or managing multiple AI providers through a unified API.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\ai-gateway\\SKILL.md"
+      ],
+      "notesZh": "AI 网关：多模型路由、故障切换、成本跟踪，统一 API 管理。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:ai-generation-persistence",
+      "type": "skill",
+      "name": "ai-generation-persistence",
+      "displayName": "ai-generation-persistence",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "AI generation persistence patterns — unique IDs, addressable URLs, database storage, and cost tracking for every LLM generation",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\ai-generation-persistence\\SKILL.md"
+      ],
+      "notesZh": "LLM 生成内容的持久化：唯一 ID、可寻址 URL、数据库存储。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:ai-sdk",
+      "type": "skill",
+      "name": "ai-sdk",
+      "displayName": "ai-sdk",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Vercel AI SDK expert guidance. Use when building AI-powered features — chat interfaces, text generation, structured output, tool calling, agents, MCP integration, streaming, embeddings, reranking, image generation, or working with any LLM provider.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\ai-sdk\\SKILL.md"
+      ],
+      "notesZh": "Vercel AI SDK：构建聊天、流式输出、工具调用、智能体等 AI 功能。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:auth",
+      "type": "skill",
+      "name": "auth",
+      "displayName": "auth",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Authentication integration guidance — Clerk (native Vercel Marketplace), Descope, and Auth0 setup for Next.js applications. Covers middleware auth patterns, sign-in/sign-up flows, and Marketplace provisioning. Use when implementing user authentication.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\auth\\SKILL.md"
+      ],
+      "notesZh": "认证集成：Clerk、Auth0 等登录方案接入 Next.js。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:bootstrap",
+      "type": "skill",
+      "name": "bootstrap",
+      "displayName": "bootstrap",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Project bootstrapping orchestrator for repos that depend on Vercel-linked resources (databases, auth, and managed integrations). Use when setting up or repairing a repository so linking, environment provisioning, env pulls, and first-run db/dev commands happen in the correct safe order.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\bootstrap\\SKILL.md"
+      ],
+      "notesZh": "项目引导：初始化依赖 Vercel 资源（数据库/认证）的仓库环境。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:chat-sdk",
+      "type": "skill",
+      "name": "chat-sdk",
+      "displayName": "chat-sdk",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Vercel Chat SDK expert guidance. Use when building multi-platform chat bots — Slack, Telegram, Microsoft Teams, Discord, Google Chat, GitHub, Linear — with a single codebase. Covers the Chat class, adapters, threads, messages, cards, modals, streaming, state management, and webhook setup.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\chat-sdk\\SKILL.md"
+      ],
+      "notesZh": "Chat SDK：一套代码对接 Slack、Telegram、Discord 等多平台聊天机器人。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:cms",
+      "type": "skill",
+      "name": "cms",
+      "displayName": "cms",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Headless CMS integration guidance — Sanity (native Vercel Marketplace), Contentful, DatoCMS, Storyblok, and Builder.io. Covers studio setup, content modeling, preview mode, revalidation webhooks, and Visual Editing. Use when building content-driven sites with a headless CMS on Vercel.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\cms\\SKILL.md"
+      ],
+      "notesZh": "无头 CMS 集成：Sanity、Contentful 等内容系统接入。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:cron-jobs",
+      "type": "skill",
+      "name": "cron-jobs",
+      "displayName": "cron-jobs",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Vercel Cron Jobs configuration and best practices. Use when adding, editing, or debugging scheduled tasks in vercel.json.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\cron-jobs\\SKILL.md"
+      ],
+      "notesZh": "Vercel Cron 定时任务：在 vercel.json 里配置定时执行。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:deployments-cicd",
+      "type": "skill",
+      "name": "deployments-cicd",
+      "displayName": "deployments-cicd",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Vercel deployment and CI/CD expert guidance. Use when deploying, promoting, rolling back, inspecting deployments, building with --prebuilt, or configuring CI workflow files for Vercel.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\deployments-cicd\\SKILL.md"
+      ],
+      "notesZh": "部署与 CI/CD：发布、回滚、检查部署、配置 CI 工作流。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:email",
+      "type": "skill",
+      "name": "email",
+      "displayName": "email",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Email sending integration guidance — Resend (native Vercel Marketplace) with React Email templates. Covers API setup, transactional emails, domain verification, and template patterns. Use when sending emails from a Vercel-deployed application.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\email\\SKILL.md"
+      ],
+      "notesZh": "邮件发送：Resend + React Email 模板，验证域名发事务邮件。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:env-vars",
+      "type": "skill",
+      "name": "env-vars",
+      "displayName": "env-vars",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Vercel environment variable expert guidance. Use when working with .env files, vercel env commands, OIDC tokens, or managing environment-specific configuration.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\env-vars\\SKILL.md"
+      ],
+      "notesZh": "Vercel 环境变量管理：.env 文件、vercel env 命令、OIDC。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:geist",
+      "type": "skill",
+      "name": "geist",
+      "displayName": "geist",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Expert guidance for Geist, Vercel's default typography system and font family for precise Next.js interfaces. Use when configuring Geist Sans, Geist Mono, or Geist Pixel, setting up font imports, or applying Vercel typography and aesthetic guidance.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\geist\\SKILL.md"
+      ],
+      "notesZh": "Geist 字体/排版系统：Vercel 默认字体配置。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:geistdocs",
+      "type": "skill",
+      "name": "geistdocs",
+      "displayName": "geistdocs",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Expert guidance for Geistdocs, Vercel's documentation template built with Next.js and Fumadocs — MDX authoring, configuration, AI chat, i18n, feedback, deployment. Use when creating documentation sites, configuring geistdocs, writing MDX content, or setting up docs infrastructure.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\geistdocs\\SKILL.md"
+      ],
+      "notesZh": "Geistdocs 文档站模板：MDX 写作、AI 聊天、i18n、部署。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:investigation-mode",
+      "type": "skill",
+      "name": "investigation-mode",
+      "displayName": "investigation-mode",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Orchestrated debugging coordinator. Triggers on frustration signals (stuck, hung, broken, waiting) and systematically triages: runtime logs → workflow status → browser verify → deploy/env. Reports findings at every step.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\investigation-mode\\SKILL.md"
+      ],
+      "notesZh": "卡住/报错时的系统性排查：日志→工作流→浏览器验证→环境，逐步定位。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:json-render",
+      "type": "skill",
+      "name": "json-render",
+      "displayName": "json-render",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "AI chat response rendering guidance — handling UIMessage parts, tool call displays, streaming states, and structured data presentation. Use when building custom chat UIs, rendering tool results, or troubleshooting AI response display issues.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\json-render\\SKILL.md"
+      ],
+      "notesZh": "AI 聊天回复渲染：工具调用、流式状态、结构化数据展示。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:marketplace",
+      "type": "skill",
+      "name": "marketplace",
+      "displayName": "marketplace",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Vercel Marketplace expert guidance — discovering, installing, and building integrations, auto-provisioned environment variables, unified billing, and the vercel integration CLI. Use when consuming third-party services, building custom integrations, or managing marketplace resources on Vercel.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\marketplace\\SKILL.md"
+      ],
+      "notesZh": "Vercel Marketplace：接入第三方服务、自动配置环境变量、统一计费。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:micro",
+      "type": "skill",
+      "name": "micro",
+      "displayName": "micro",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Expert guidance for micro — asynchronous HTTP microservices framework by Vercel. Use when building lightweight HTTP servers, API endpoints, or microservices using the micro library.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\micro\\SKILL.md"
+      ],
+      "notesZh": "micro 框架：Vercel 出品的轻量异步 HTTP 微服务。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:ncc",
+      "type": "skill",
+      "name": "ncc",
+      "displayName": "ncc",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Expert guidance for @vercel/ncc — a simple CLI for compiling Node.js modules into a single file with all dependencies included. Use when bundling serverless functions, CLI tools, or any Node.js project into a self-contained file.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\ncc\\SKILL.md"
+      ],
+      "notesZh": "@vercel/ncc：把 Node.js 项目打包成单个自包含文件。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:next-forge",
+      "type": "skill",
+      "name": "next-forge",
+      "displayName": "next-forge",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "next-forge expert guidance — production-grade Turborepo monorepo SaaS starter by Vercel. Use when working in a next-forge project, scaffolding with `npx next-forge init`, or editing @repo/* workspace packages.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\next-forge\\SKILL.md"
+      ],
+      "notesZh": "next-forge 模板：生产级 Turborepo monorepo SaaS 起步套件。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:nextjs",
+      "type": "skill",
+      "name": "nextjs",
+      "displayName": "nextjs",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Next.js App Router expert guidance. Use when building, debugging, or architecting Next.js applications — routing, Server Components, Server Actions, Cache Components, layouts, middleware/proxy, data fetching, rendering strategies, and deployment on Vercel.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\nextjs\\SKILL.md"
+      ],
+      "notesZh": "Next.js App Router 全面指南：路由、服务端组件、数据获取、渲染。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:observability",
+      "type": "skill",
+      "name": "observability",
+      "displayName": "observability",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Vercel Observability expert guidance — Drains (logs, traces, speed insights, web analytics), Web Analytics, Speed Insights, runtime logs, custom events, OpenTelemetry integration, and monitoring dashboards. Use when instrumenting, debugging, or optimizing application performance and user experience on Vercel.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\observability\\SKILL.md"
+      ],
+      "notesZh": "Vercel 可观测性：日志、速度洞察、Web 分析、OpenTelemetry、监控仪表盘。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:payments",
+      "type": "skill",
+      "name": "payments",
+      "displayName": "payments",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Stripe payments integration guidance — native Vercel Marketplace setup, checkout sessions, webhook handling, subscription billing, and the Stripe SDK. Use when implementing payments, subscriptions, or processing transactions.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\payments\\SKILL.md"
+      ],
+      "notesZh": "Stripe 支付集成：结账、Webhook、订阅计费。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:react-best-practices",
+      "type": "skill",
+      "name": "react-best-practices",
+      "displayName": "react-best-practices",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "React best-practices reviewer for TSX files. Triggers after editing multiple TSX components to run a condensed quality checklist covering component structure, hooks usage, accessibility, performance, and TypeScript patterns.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\react-best-practices\\SKILL.md"
+      ],
+      "notesZh": "React/TSX 组件质量检查清单：结构、hooks、无障碍、性能。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:routing-middleware",
+      "type": "skill",
+      "name": "routing-middleware",
+      "displayName": "routing-middleware",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Vercel Routing Middleware guidance — request interception before cache, rewrites, redirects, personalization. Works with any framework. Supports Edge, Node.js, and Bun runtimes. Use when intercepting requests at the platform level.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\routing-middleware\\SKILL.md"
+      ],
+      "notesZh": "路由中间件：请求拦截、重写、重定向、个性化。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:runtime-cache",
+      "type": "skill",
+      "name": "runtime-cache",
+      "displayName": "runtime-cache",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Vercel Runtime Cache API guidance — ephemeral per-region key-value cache with tag-based invalidation. Shared across Functions, Routing Middleware, and Builds. Use when implementing caching strategies beyond framework-level caching.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\runtime-cache\\SKILL.md"
+      ],
+      "notesZh": "Runtime Cache：按区域的临时 KV 缓存，支持按标签失效。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:satori",
+      "type": "skill",
+      "name": "satori",
+      "displayName": "satori",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Expert guidance for Satori — Vercel's library that converts HTML and CSS to SVG, commonly used to generate dynamic OG images for Next.js and other frameworks.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\satori\\SKILL.md"
+      ],
+      "notesZh": "Satori：把 HTML/CSS 转成 SVG，常用于动态生成 OG 分享图。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:shadcn",
+      "type": "skill",
+      "name": "shadcn",
+      "displayName": "shadcn",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "shadcn/ui expert guidance — CLI, component installation, composition patterns, custom registries, theming, Tailwind CSS integration, and high-quality interface design. Use when initializing shadcn, adding components, composing product UI, building custom registries, configuring themes, or troubleshooting component issues.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\shadcn\\SKILL.md"
+      ],
+      "notesZh": "shadcn/ui 组件库：CLI 安装、主题定制、Tailwind 集成。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:sign-in-with-vercel",
+      "type": "skill",
+      "name": "sign-in-with-vercel",
+      "displayName": "sign-in-with-vercel",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Sign in with Vercel guidance — OAuth 2.0/OIDC identity provider for user authentication via Vercel accounts. Use when implementing user login with Vercel as the identity provider.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\sign-in-with-vercel\\SKILL.md"
+      ],
+      "notesZh": "用 Vercel 账号做 OAuth/OIDC 登录。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:swr",
+      "type": "skill",
+      "name": "swr",
+      "displayName": "swr",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "SWR data-fetching expert guidance. Use when building React apps with client-side data fetching, caching, revalidation, mutations, optimistic UI, pagination, or infinite loading using the SWR library.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\swr\\SKILL.md"
+      ],
+      "notesZh": "SWR 数据请求库：缓存、重验证、乐观更新、无限加载。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:turbopack",
+      "type": "skill",
+      "name": "turbopack",
+      "displayName": "turbopack",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Turbopack expert guidance. Use when configuring the Next.js bundler, optimizing HMR, debugging build issues, or understanding the Turbopack vs Webpack differences.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\turbopack\\SKILL.md"
+      ],
+      "notesZh": "Turbopack 打包器：配置、HMR 优化、与 Webpack 的差异。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:turborepo",
+      "type": "skill",
+      "name": "turborepo",
+      "displayName": "turborepo",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Turborepo expert guidance. Use when setting up or optimizing monorepo builds, configuring task caching, remote caching, parallel execution, or the --affected flag for incremental CI.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\turborepo\\SKILL.md"
+      ],
+      "notesZh": "Turborepo 多仓库构建：任务缓存、远程缓存、并行执行。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:v0-dev",
+      "type": "skill",
+      "name": "v0-dev",
+      "displayName": "v0-dev",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "v0 by Vercel expert guidance. Use when discussing AI code generation, generating UI components from prompts, v0 CLI usage, v0 SDK/API integration, or integrating v0 into development workflows with GitHub and Vercel deployment.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\v0-dev\\SKILL.md"
+      ],
+      "notesZh": "v0：用提示词生成 UI 组件的 AI 工具，可接入开发流程。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:vercel-agent",
+      "type": "skill",
+      "name": "vercel-agent",
+      "displayName": "vercel-agent",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Vercel Agent guidance — AI-powered code review, incident investigation, and SDK installation. Automates PR analysis and anomaly debugging. Use when configuring or understanding Vercel's AI development tools.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\vercel-agent\\SKILL.md"
+      ],
+      "notesZh": "Vercel Agent：AI 代码审查、故障调查、SDK 安装。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:vercel-api",
+      "type": "skill",
+      "name": "vercel-api",
+      "displayName": "vercel-api",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Vercel app and REST API expert guidance. Use when the agent needs live access to Vercel projects, deployments, environment variables, domains, logs, or documentation through the connected Vercel app or REST API.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\vercel-api\\SKILL.md"
+      ],
+      "notesZh": "Vercel REST API：获取项目、部署、环境变量、日志等数据。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:vercel-cli",
+      "type": "skill",
+      "name": "vercel-cli",
+      "displayName": "vercel-cli",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Vercel CLI expert guidance. Use when deploying, managing environment variables, linking projects, viewing logs, managing domains, or interacting with the Vercel platform from the command line.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\vercel-cli\\SKILL.md"
+      ],
+      "notesZh": "Vercel 命令行：部署、环境变量、域名、日志管理。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:vercel-firewall",
+      "type": "skill",
+      "name": "vercel-firewall",
+      "displayName": "vercel-firewall",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Vercel Firewall and security expert guidance. Use when configuring DDoS protection, WAF rules, rate limiting, bot filtering, IP allow/block lists, OWASP rulesets, Attack Challenge Mode, or any security configuration on the Vercel platform.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\vercel-firewall\\SKILL.md"
+      ],
+      "notesZh": "Vercel 防火墙：DDoS 防护、WAF 规则、限流、IP 黑白名单。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:vercel-flags",
+      "type": "skill",
+      "name": "vercel-flags",
+      "displayName": "vercel-flags",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Vercel Flags guidance — feature flags platform with unified dashboard, Flags Explorer, gradual rollouts, A/B testing, and provider adapters. Use when implementing feature flags, experimentation, or staged rollouts.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\vercel-flags\\SKILL.md"
+      ],
+      "notesZh": "特性开关平台：灰度发布、A/B 测试、统一仪表盘。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:vercel-functions",
+      "type": "skill",
+      "name": "vercel-functions",
+      "displayName": "vercel-functions",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Vercel Functions expert guidance — Serverless Functions, Edge Functions, Fluid Compute, streaming, Cron Jobs, and runtime configuration. Use when configuring, debugging, or optimizing server-side code running on Vercel.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\vercel-functions\\SKILL.md"
+      ],
+      "notesZh": "Vercel 函数：Serverless/Edge 函数、流式、运行时配置。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:vercel-queues",
+      "type": "skill",
+      "name": "vercel-queues",
+      "displayName": "vercel-queues",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Vercel Queues guidance (public beta) — durable event streaming with topics, consumer groups, retries, and delayed delivery. $0.60/1M ops. Powers Workflow DevKit. Use when building async processing, fan-out patterns, or event-driven architectures.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\vercel-queues\\SKILL.md"
+      ],
+      "notesZh": "Vercel 队列：异步事件流、重试、延迟投递、扇出模式。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:vercel-sandbox",
+      "type": "skill",
+      "name": "vercel-sandbox",
+      "displayName": "vercel-sandbox",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Vercel Sandbox guidance — ephemeral Firecracker microVMs for running untrusted code safely. Supports AI agents, code generation, and experimentation. Use when executing user-generated or AI-generated code in isolation.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\vercel-sandbox\\SKILL.md"
+      ],
+      "notesZh": "Vercel Sandbox：隔离微虚拟机安全运行不可信代码。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:vercel-services",
+      "type": "skill",
+      "name": "vercel-services",
+      "displayName": "vercel-services",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Vercel Services — deploy multiple services within a single Vercel project. Use for monorepo layouts or when combining a backend (Python, Go) with a frontend (Next.js, Vite) in one deployment.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\vercel-services\\SKILL.md"
+      ],
+      "notesZh": "单项目部署多服务：后端(Python/Go) + 前端(Next.js) 混合。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:vercel-storage",
+      "type": "skill",
+      "name": "vercel-storage",
+      "displayName": "vercel-storage",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Vercel storage expert guidance — Blob, Edge Config, and Marketplace storage (Neon Postgres, Upstash Redis). Use when choosing, configuring, or using data storage with Vercel applications.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\vercel-storage\\SKILL.md"
+      ],
+      "notesZh": "Vercel 存储：Blob、Edge Config、数据库（Neon/Upstash）选择与接入。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:verification",
+      "type": "skill",
+      "name": "verification",
+      "displayName": "verification",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Full-story verification — infers what the user is building, then verifies the complete flow end-to-end: browser → API → data → response. Triggers on dev server start and 'why isn't this working' signals.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\verification\\SKILL.md"
+      ],
+      "notesZh": "全链路端到端验证：浏览器 → API → 数据 → 响应，发现\"怎么不工作\"的问题。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:workflow",
+      "type": "skill",
+      "name": "workflow",
+      "displayName": "workflow",
+      "marketplace": "openai-curated",
+      "version": "0.21.3",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Vercel Workflow DevKit (WDK) expert guidance. Use when building durable workflows, long-running tasks, API routes or agents that need pause/resume, retries, step-based execution, or crash-safe orchestration with Vercel Workflow.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Vercel Labs",
+      "homepage": "",
+      "fromPlugin": "vercel",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-curated\\vercel\\11c74d6b\\skills\\workflow\\SKILL.md"
+      ],
+      "notesZh": "Workflow DevKit：持久化工作流、长任务、暂停/恢复、重试。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "plugin:documents",
+      "type": "plugin",
+      "name": "documents",
+      "displayName": "Documents",
+      "marketplace": "openai-primary-runtime",
+      "version": "26.805.11740",
+      "enabled": true,
+      "category": "文档与办公",
+      "descriptionEn": "Create, edit, inspect, render, verify, and export DOCX document artifacts locally. Use Documents when the durable output or target is a document, doc, docs, Word file, Google Doc, Google Docs document, memo, report, or writing artifact.",
+      "keywords": [
+        "doc",
+        "docs",
+        "document",
+        "documents",
+        "word",
+        "google docs",
+        "google doc",
+        "memo",
+        "write",
+        "writing",
+        "docx",
+        "artifacts"
+      ],
+      "capabilities": [
+        "Interactive",
+        "Write"
+      ],
+      "author": "OpenAI",
+      "homepage": "https://openai.com/",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.805.11740",
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.805.11740\\skills\\documents\\SKILL.md"
+      ],
+      "notesZh": "在本地创建/编辑/检查 Word(.docx) 文档，可生成 Google Docs 交接版本。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "plugin:pdf",
+      "type": "plugin",
+      "name": "pdf",
+      "displayName": "PDF",
+      "marketplace": "openai-primary-runtime",
+      "version": "26.805.11740",
+      "enabled": true,
+      "category": "文档与办公",
+      "descriptionEn": "Read, create, inspect, render, verify, and extract content from PDF files locally. Use PDF when the durable output or target is a PDF file and visual layout fidelity matters.",
+      "keywords": [
+        "pdf",
+        "pdfs",
+        "document",
+        "documents",
+        "report",
+        "render",
+        "review",
+        "extract",
+        "extraction",
+        "pypdf",
+        "pdfplumber",
+        "reportlab"
+      ],
+      "capabilities": [
+        "Interactive",
+        "Write"
+      ],
+      "author": "OpenAI",
+      "homepage": "https://openai.com/",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-primary-runtime\\pdf\\26.805.11740",
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-primary-runtime\\pdf\\26.805.11740\\skills\\pdf\\SKILL.md",
+        "C:\\Users\\Administrator\\.codex\\skills\\pdf\\SKILL.md"
+      ],
+      "notesZh": "在本地读取、创建、渲染、校验 PDF 文件，适合对排版效果有要求的场景。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "plugin:presentations",
+      "type": "plugin",
+      "name": "presentations",
+      "displayName": "Presentations",
+      "marketplace": "openai-primary-runtime",
+      "version": "26.805.11740",
+      "enabled": true,
+      "category": "文档与办公",
+      "descriptionEn": "Create, edit, inspect, render, verify, and export presentation slide decks locally, including PPTX authoring and native Google Slides handoff guidance. Use Presentations when the durable output or target is a deck, slidedeck, presentation deck, slide deck, slides, PowerPoint, Google Slides, presentation, speaker notes, or visual deck repair.",
+      "keywords": [
+        "slides",
+        "slide",
+        "deck",
+        "slidedeck",
+        "presentation",
+        "presentations",
+        "google slides",
+        "powerpoint",
+        "ppt",
+        "pptx"
+      ],
+      "capabilities": [
+        "Interactive",
+        "Write"
+      ],
+      "author": "OpenAI",
+      "homepage": "https://openai.com/",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-primary-runtime\\presentations\\26.805.11740",
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-primary-runtime\\presentations\\26.805.11740\\skills\\presentations\\SKILL.md"
+      ],
+      "notesZh": "创建/编辑 PPT 幻灯片（.pptx），可生成 Google Slides 交接版本。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "plugin:spreadsheets",
+      "type": "plugin",
+      "name": "spreadsheets",
+      "displayName": "Spreadsheets",
+      "marketplace": "openai-primary-runtime",
+      "version": "26.805.11740",
+      "enabled": true,
+      "category": "文档与办公",
+      "descriptionEn": "Create, edit, inspect, render, verify, and export XLSX, CSV, and TSV spreadsheets locally, including local XLSX authoring for native Google Sheets handoff. Use Spreadsheets when the durable output or target is a spreadsheet, workbook, sheet, Google Sheet, or CSV file. Use Excel Live Control for working on a spreadsheet open in Microsoft Excel app, through the ChatGPT add-in.",
+      "keywords": [
+        "sheet",
+        "sheets",
+        "google sheet",
+        "google sheets",
+        "spreadsheet",
+        "spreadsheets",
+        "excel",
+        "microsoft excel",
+        "excel add-in",
+        "chatgpt add-in for excel",
+        "open workbook",
+        "connected excel session",
+        "csv",
+        "xlsx",
+        "xls",
+        "workbook"
+      ],
+      "capabilities": [
+        "Interactive",
+        "Write"
+      ],
+      "author": "OpenAI",
+      "homepage": "https://openai.com/",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-primary-runtime\\spreadsheets\\26.805.11740",
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-primary-runtime\\spreadsheets\\26.805.11740\\skills\\spreadsheets\\SKILL.md"
+      ],
+      "notesZh": "创建/编辑 Excel(.xlsx)、CSV、TSV 表格，可生成 Google Sheets 交接版本。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:excel-live-control",
+      "type": "skill",
+      "name": "excel-live-control",
+      "displayName": "excel-live-control",
+      "marketplace": "openai-primary-runtime",
+      "version": "26.805.11740",
+      "enabled": true,
+      "category": "文档与办公",
+      "descriptionEn": "Control an open or active Microsoft Excel workbook through the ChatGPT add-in or connected session. Use when the user tags the Microsoft Excel app in Codex or follows up on an established live Excel task. Do not use for standalone spreadsheet files or Google Sheets.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "OpenAI",
+      "homepage": "",
+      "fromPlugin": "spreadsheets",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-primary-runtime\\spreadsheets\\26.805.11740\\skills\\excel-live-control\\SKILL.md"
+      ],
+      "notesZh": "实时控制已打开的 Excel 应用（需安装 ChatGPT 的 Excel 插件）。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "plugin:template-creator",
+      "type": "plugin",
+      "name": "template-creator",
+      "displayName": "Template Creator",
+      "marketplace": "openai-primary-runtime",
+      "version": "26.805.11740",
+      "enabled": true,
+      "category": "文档与办公",
+      "descriptionEn": "Use Template Creator to create reusable templates from documents, spreadsheets, presentations, ImageGen or Product Design images, emails, and Slack messages. Template Creator preserves the structure, voice, layout, and style of your reference so you can quickly create new versions whenever you need them.",
+      "keywords": [
+        "artifact",
+        "template",
+        "document",
+        "presentation",
+        "spreadsheet",
+        "image",
+        "imagegen",
+        "product design",
+        "email",
+        "slack"
+      ],
+      "capabilities": [
+        "Interactive",
+        "Write"
+      ],
+      "author": "OpenAI",
+      "homepage": "https://openai.com/",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-primary-runtime\\template-creator\\26.805.11740",
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-primary-runtime\\template-creator\\26.805.11740\\skills\\template-creator\\SKILL.md"
+      ],
+      "notesZh": "把文档/表格/PPT/图片/邮件变成可复用的个人模板技能，以后一键套用。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "plugin:ponytail",
+      "type": "plugin",
+      "name": "ponytail",
+      "displayName": "Ponytail",
+      "marketplace": "ponytail",
+      "version": "4.9.0",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Prefer YAGNI, the standard library, native platform features, and the smallest correct implementation.",
+      "keywords": [
+        "yagni",
+        "minimalism",
+        "code-review",
+        "productivity"
+      ],
+      "capabilities": [
+        "Instructions",
+        "Lifecycle hooks"
+      ],
+      "author": "Dietrich Gebert",
+      "homepage": "https://github.com/DietrichGebert/ponytail",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\ponytail\\ponytail\\4.9.0",
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\ponytail\\ponytail\\4.9.0\\skills\\ponytail\\SKILL.md"
+      ],
+      "notesZh": "极简开发哲学：优先标准库、YAGNI、最小可用实现，配套 audit/review/debt 等技能。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:ponytail-audit",
+      "type": "skill",
+      "name": "ponytail-audit",
+      "displayName": "ponytail-audit",
+      "marketplace": "ponytail",
+      "version": "4.9.0",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Whole-repo audit for over-engineering. Like ponytail-review, but scans the\nentire codebase instead of a diff: a ranked list of what to delete, simplify,\nor replace with stdlib/native equivalents. Use when the user says \"audit this\ncodebase\", \"audit for over-engineering\", \"what can I delete from this repo\",\n\"find bloat\", \"ponytail-audit\", or \"/ponytail-audit\". One-shot report, does\nnot apply fixes.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Dietrich Gebert",
+      "homepage": "",
+      "fromPlugin": "ponytail",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\ponytail\\ponytail\\4.9.0\\skills\\ponytail-audit\\SKILL.md"
+      ],
+      "notesZh": "整库审查\"过度工程\"：列出该删、该简化、该换标准库的地方。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:ponytail-debt",
+      "type": "skill",
+      "name": "ponytail-debt",
+      "displayName": "ponytail-debt",
+      "marketplace": "ponytail",
+      "version": "4.9.0",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Harvest every `ponytail:` comment in the codebase into a debt ledger, so the\ndeliberate shortcuts and deferrals ponytail leaves behind get tracked instead\nof rotting into \"later means never\". Use when the user says \"ponytail debt\",\n\"/ponytail-debt\", \"what did ponytail defer\", \"list the shortcuts\", \"ponytail\nledger\", or \"what did we mark to do later\". One-shot report, changes nothing.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Dietrich Gebert",
+      "homepage": "",
+      "fromPlugin": "ponytail",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\ponytail\\ponytail\\4.9.0\\skills\\ponytail-debt\\SKILL.md"
+      ],
+      "notesZh": "把代码里标记的 ponytail: 欠债注释汇总成债务清单，防止\"以后再说\"变永远不做。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:ponytail-gain",
+      "type": "skill",
+      "name": "ponytail-gain",
+      "displayName": "ponytail-gain",
+      "marketplace": "ponytail",
+      "version": "4.9.0",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Show ponytail's measured impact as a compact scoreboard: less code, less\ncost, more speed, from the benchmark medians. One-shot display, not a\npersistent mode, and not a per-repo number. Trigger: /ponytail-gain,\n\"ponytail gain\", \"what does ponytail save\", \"show ponytail impact\",\n\"ponytail scoreboard\".",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Dietrich Gebert",
+      "homepage": "",
+      "fromPlugin": "ponytail",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\ponytail\\ponytail\\4.9.0\\skills\\ponytail-gain\\SKILL.md"
+      ],
+      "notesZh": "展示极简方案带来的量化收益：更少代码、更低成本、更快速度。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:ponytail-help",
+      "type": "skill",
+      "name": "ponytail-help",
+      "displayName": "ponytail-help",
+      "marketplace": "ponytail",
+      "version": "4.9.0",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Quick-reference card for all ponytail modes, skills, and commands.\nOne-shot display, not a persistent mode. Trigger: /ponytail-help,\n\"ponytail help\", \"what ponytail commands\", \"how do I use ponytail\".",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Dietrich Gebert",
+      "homepage": "",
+      "fromPlugin": "ponytail",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\ponytail\\ponytail\\4.9.0\\skills\\ponytail-help\\SKILL.md"
+      ],
+      "notesZh": "ponytail 全家桶速查卡：所有模式、技能、命令一览。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:ponytail-review",
+      "type": "skill",
+      "name": "ponytail-review",
+      "displayName": "ponytail-review",
+      "marketplace": "ponytail",
+      "version": "4.9.0",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Code review focused exclusively on over-engineering. Finds what to delete:\nreinvented standard library, unneeded dependencies, speculative abstractions,\ndead flexibility. One line per finding: location, what to cut, what replaces\nit. Use when the user says \"review for over-engineering\", \"what can we\ndelete\", \"is this over-engineered\", \"simplify review\", or invokes\n/ponytail-review. Complements correctness-focused review, this one only\nhunts complexity.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "Dietrich Gebert",
+      "homepage": "",
+      "fromPlugin": "ponytail",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\ponytail\\ponytail\\4.9.0\\skills\\ponytail-review\\SKILL.md"
+      ],
+      "notesZh": "只找\"过度工程\"的代码评审：该删什么、用什么替代，一条一行。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:baseline-ui",
+      "type": "skill",
+      "name": "baseline-ui",
+      "displayName": "baseline-ui",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "UI 设计与美化",
+      "descriptionEn": "Quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\skills\\baseline-ui\\SKILL.md"
+      ],
+      "notesZh": "快速给界面\"去糙\"：修间距、层级、字体、小布局问题。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:fixing-accessibility",
+      "type": "skill",
+      "name": "fixing-accessibility",
+      "displayName": "fixing-accessibility",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "UI 设计与美化",
+      "descriptionEn": "Audit and fix HTML accessibility issues including ARIA labels, keyboard navigation, focus management, color contrast, and form errors. Use when adding interactive controls, forms, dialogs, or reviewing WCAG compliance.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\skills\\fixing-accessibility\\SKILL.md"
+      ],
+      "notesZh": "修复网页无障碍问题：标签、键盘操作、焦点管理、对比度、表单错误。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:fixing-metadata",
+      "type": "skill",
+      "name": "fixing-metadata",
+      "displayName": "fixing-metadata",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "UI 设计与美化",
+      "descriptionEn": "Audit and fix HTML metadata including page titles, meta descriptions, canonical URLs, Open Graph\ntags, Twitter cards, favicons, JSON-LD structured data, and robots directives. Use when adding\nSEO metadata, fixing social share previews, reviewing Open Graph tags, setting up canonical URLs,\nor shipping new pages that need correct meta tags.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\skills\\fixing-metadata\\SKILL.md"
+      ],
+      "notesZh": "修复网页元信息：标题、SEO 描述、OG 标签、favicon、JSON-LD。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:fixing-motion-performance",
+      "type": "skill",
+      "name": "fixing-motion-performance",
+      "displayName": "fixing-motion-performance",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "UI 设计与美化",
+      "descriptionEn": "Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\skills\\fixing-motion-performance\\SKILL.md"
+      ],
+      "notesZh": "修复动画卡顿：避免布局抖动、用合成器属性、优化模糊效果。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:hallmark",
+      "type": "skill",
+      "name": "hallmark",
+      "displayName": "hallmark",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "UI 设计与美化",
+      "descriptionEn": "Anti-AI-slop design skill for greenfield pages, audits, redesigns, and design extraction from URLs or screenshots. Use when the user asks to build a new app or landing page, wants to redesign something, invokes Hallmark by name, or uses audit/redesign/study.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\skills\\hallmark\\SKILL.md"
+      ],
+      "notesZh": "高品质网页设计：从零新建、重设计、从截图/网址提取设计风格。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:full-output-enforcement",
+      "type": "skill",
+      "name": "full-output-enforcement",
+      "displayName": "full-output-enforcement",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Universal overlay skill - apply to ANY task requiring exhaustive, unabridged output (full files, all components, no placeholders). Does not conflict with design skills.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\skills\\output-skill\\SKILL.md"
+      ],
+      "notesZh": "长任务输出保障：强制完整代码、禁止占位符、处理超长输出拆分。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:redesign-existing-projects",
+      "type": "skill",
+      "name": "redesign-existing-projects",
+      "displayName": "redesign-existing-projects",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "UI 设计与美化",
+      "descriptionEn": "Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns, and applies high-end design standards without breaking functionality. Use ONLY for EXISTING projects the user wants improved. If the user wants a brand-new page built from scratch, use design-taste-frontend instead. Works with any CSS framework or vanilla CSS.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\skills\\redesign-skill\\SKILL.md"
+      ],
+      "notesZh": "把已有网站/应用升级到高级质感（只用于已有项目，不用于从零新建）。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:skill-installer",
+      "type": "skill",
+      "name": "skill-installer",
+      "displayName": "skill-installer",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "系统与技能管理",
+      "descriptionEn": "Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill, or install a skill from another repo (including private repos).",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\skills\\skill-installer\\SKILL.md",
+        "C:\\Users\\Administrator\\.codex\\skills\\.system\\skill-installer\\SKILL.md"
+      ],
+      "notesZh": "安装技能：从官方列表或 GitHub 仓库装到 .codex/skills。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:design-taste-frontend",
+      "type": "skill",
+      "name": "design-taste-frontend",
+      "displayName": "design-taste-frontend",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "UI 设计与美化",
+      "descriptionEn": "Anti-slop frontend skill for NEW (greenfield) landing pages, portfolios, and interfaces. Reads the brief, infers design direction, and ships non-templated UI. Use ONLY when the user asks to build or style something NEW from scratch. If the user wants to redesign or upgrade an EXISTING project, use redesign-existing-projects instead. Strict pre-flight check.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\skills\\taste-skill\\SKILL.md"
+      ],
+      "notesZh": "从零设计新网页/落地页/作品集，拒绝模板感（只用于新建）。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:imagegen",
+      "type": "skill",
+      "name": "imagegen",
+      "displayName": "imagegen",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "UI 设计与美化",
+      "descriptionEn": "Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, sprites, mockups, or transparent-background cutouts. Use when Codex should create a brand-new image, transform an existing image, or derive visual variants from references, and the output should be a bitmap asset rather than repo-native code or vector. Do not use when the task is better handled by editing existing SVG/vector/code-native assets, extending an established icon or logo system, or building the visual directly in HTML/CSS/canvas.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\skills\\.system\\imagegen\\SKILL.md"
+      ],
+      "notesZh": "生成/编辑位图图片：插画、纹理、素材、模拟图、透明底图。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:openai-docs",
+      "type": "skill",
+      "name": "openai-docs",
+      "displayName": "openai-docs",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "系统与技能管理",
+      "descriptionEn": "Use for Codex models/pricing, scheduled tasks, skills, settings, setup, troubleshooting, customization, automations, and self-knowledge—including 'you,' 'your,' 'this app,' or 'this coding agent' when they refer to Codex—and for OpenAI APIs/products and ChatGPT Work. Also use for model choice/migration, prompting, SDKs, Responses, Realtime, agents, evals, and Chat/Work/Codex comparisons. Do not use for generic app/software tasks that merely mention Codex.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\skills\\.system\\openai-docs\\SKILL.md"
+      ],
+      "notesZh": "查询 Codex/OpenAI 官方知识：模型、定价、设置、自动化、技能等。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:plugin-creator",
+      "type": "skill",
+      "name": "plugin-creator",
+      "displayName": "plugin-creator",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "系统与技能管理",
+      "descriptionEn": "Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, optional plugin folders/files, valid manifest defaults, and personal-marketplace entries by default. Use when Codex needs to create a new personal plugin, add optional plugin structure, generate or update marketplace entries for plugin ordering and availability metadata, or update an existing local plugin during development with the CLI-driven cachebuster and reinstall flow.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\skills\\.system\\plugin-creator\\SKILL.md"
+      ],
+      "notesZh": "创建 Codex 插件：自动生成 plugin.json 和插件目录结构。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:review-agent",
+      "type": "skill",
+      "name": "review-agent",
+      "displayName": "review-agent",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Perform a read-only, defect-first review of a specified code change and return every actionable finding. Use when another agent delegates review of uncommitted changes, a base-branch diff, a commit, or custom review instructions.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\skills\\.system\\review-agent\\SKILL.md"
+      ],
+      "notesZh": "只读审查代码改动，输出每条可执行的缺陷清单。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:skill-creator",
+      "type": "skill",
+      "name": "skill-creator",
+      "displayName": "skill-creator",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "系统与技能管理",
+      "descriptionEn": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Codex's capabilities with specialized knowledge, workflows, or tool integrations.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\skills\\.system\\skill-creator\\SKILL.md"
+      ],
+      "notesZh": "指导你创建或更新一个技能。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:agent-reach",
+      "type": "skill",
+      "name": "agent-reach",
+      "displayName": "agent-reach",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "研究与调查",
+      "descriptionEn": "MUST USE when user wants to 调研/research/搜索/search/查/找/look up anything\non the internet — e.g. 全网调研 X / 帮我调研一下 X / 查一下 X / 搜搜 X /\n看看大家怎么评价 X / X 上有什么讨论 / research this topic。\n\nAlso MUST USE when user mentions any platform or shares any URL/链接:\n小红书/xiaohongshu/xhs, Twitter/推特/X, B站/bilibili, Reddit, Facebook,\nInstagram, V2EX, LinkedIn/领英/招聘/求职/jobs, YouTube, GitHub code search, 小宇宙播客,\n雪球/股票行情, RSS feeds, or any web URL.\n\n15 platforms, multi-backend routing (OpenCLI / per-platform CLIs / APIs).\nZero config for 6 channels. Run `agent-reach doctor --json` to see which\nbackend serves each platform right now.\n\nNOT for: 写报告/数据分析/翻译等内容加工（本 skill 只负责从互联网获取内容）；\n发帖/评论/点赞等写操作；已有专门 skill 的平台（先用专门 skill）。\n\n【路由方式】SKILL.md 包含路由表和常用命令，复杂场景需按需阅读对应分类的 references/*.md。\n分类：search / social (小红书/推特/B站/V2EX/Reddit/Facebook/Instagram) / career(LinkedIn) / dev(github) / web(网页/文章/RSS) / video(YouTube/B站/播客)。",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.agents\\skills\\agent-reach\\SKILL.md"
+      ],
+      "notesZh": "全网调研/搜索：小红书、推特、B站、Reddit、YouTube、GitHub 等 15 个平台。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:ask-matt",
+      "type": "skill",
+      "name": "ask-matt",
+      "displayName": "ask-matt",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "系统与技能管理",
+      "descriptionEn": "Ask which skill or flow fits your situation. A router over the skills in this repo.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.agents\\skills\\ask-matt\\SKILL.md"
+      ],
+      "notesZh": "不知道该用哪个技能时问它：它会帮你路由到合适的技能或流程。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:code-review",
+      "type": "skill",
+      "name": "code-review",
+      "displayName": "code-review",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/spec asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to \"review since X\".",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.agents\\skills\\code-review\\SKILL.md"
+      ],
+      "notesZh": "双维度代码评审：规范符合度 + 需求实现度，两边同时跑。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:codebase-design",
+      "type": "skill",
+      "name": "codebase-design",
+      "displayName": "codebase-design",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.agents\\skills\\codebase-design\\SKILL.md"
+      ],
+      "notesZh": "设计\"深模块\"：优化模块接口、找拆分点、让代码更易测试、更易被 AI 理解。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:diagnosing-bugs",
+      "type": "skill",
+      "name": "diagnosing-bugs",
+      "displayName": "diagnosing-bugs",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Diagnosis loop for hard bugs and performance regressions. Use when the user says \"diagnose\"/\"debug this\", or reports something broken/throwing/failing/slow.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.agents\\skills\\diagnosing-bugs\\SKILL.md"
+      ],
+      "notesZh": "疑难 Bug 诊断循环：崩溃、报错、性能回退、卡顿的排查。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:domain-modeling",
+      "type": "skill",
+      "name": "domain-modeling",
+      "displayName": "domain-modeling",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, or when another skill needs to maintain the domain model.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.agents\\skills\\domain-modeling\\SKILL.md"
+      ],
+      "notesZh": "打磨领域模型：统一团队术语、记录架构决策。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:find-skills",
+      "type": "skill",
+      "name": "find-skills",
+      "displayName": "find-skills",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "系统与技能管理",
+      "descriptionEn": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.agents\\skills\\find-skills\\SKILL.md"
+      ],
+      "notesZh": "帮你发现和安装适合当前需求的技能。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:grill-me",
+      "type": "skill",
+      "name": "grill-me",
+      "displayName": "grill-me",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "头脑风暴与规划",
+      "descriptionEn": "A relentless interview to sharpen a plan or design.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.agents\\skills\\grill-me\\SKILL.md"
+      ],
+      "notesZh": "一场\"拷问式访谈\"：把计划或设计打磨得更扎实（先提问再定方案）。",
+      "favorite": true,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:grill-with-docs",
+      "type": "skill",
+      "name": "grill-with-docs",
+      "displayName": "grill-with-docs",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "头脑风暴与规划",
+      "descriptionEn": "A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.agents\\skills\\grill-with-docs\\SKILL.md"
+      ],
+      "notesZh": "拷问式打磨计划，同时生成 ADR 和术语表文档。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:grilling",
+      "type": "skill",
+      "name": "grilling",
+      "displayName": "grilling",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "头脑风暴与规划",
+      "descriptionEn": "Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'grill' trigger phrases.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.agents\\skills\\grilling\\SKILL.md"
+      ],
+      "notesZh": "不停追问直到达成共识：用\"设计树\"逐轮拷问你的计划。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:handoff",
+      "type": "skill",
+      "name": "handoff",
+      "displayName": "handoff",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "沟通与协作",
+      "descriptionEn": "Compact the current conversation into a handoff document for another agent to pick up.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.agents\\skills\\handoff\\SKILL.md"
+      ],
+      "notesZh": "把当前对话压缩成交接文档，方便另一个代理接手。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:implement",
+      "type": "skill",
+      "name": "implement",
+      "displayName": "implement",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Implement a piece of work based on a spec or set of tickets.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.agents\\skills\\implement\\SKILL.md"
+      ],
+      "notesZh": "按 spec 或工单实现一段具体工作。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:improve-codebase-architecture",
+      "type": "skill",
+      "name": "improve-codebase-architecture",
+      "displayName": "improve-codebase-architecture",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.agents\\skills\\improve-codebase-architecture\\SKILL.md"
+      ],
+      "notesZh": "扫描代码库找改进机会，生成可视化 HTML 报告，再逐个拷问打磨。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:officecli",
+      "type": "skill",
+      "name": "officecli",
+      "displayName": "officecli",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "文档与办公",
+      "descriptionEn": "Create, analyze, proofread, and modify Office documents (.docx, .xlsx, .pptx) using the officecli CLI tool. Use when the user wants to create, inspect, check formatting, find issues, add charts, or modify Office documents.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.agents\\skills\\officecli\\SKILL.md"
+      ],
+      "notesZh": "用 officecli 工具创建/检查/修改 Office 文档（.docx/.xlsx/.pptx）。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:prototype",
+      "type": "skill",
+      "name": "prototype",
+      "displayName": "prototype",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "头脑风暴与规划",
+      "descriptionEn": "Build a throwaway prototype to answer a design question. Use when the user wants to sanity-check whether a state model or logic feels right, or explore what a UI should look like.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.agents\\skills\\prototype\\SKILL.md"
+      ],
+      "notesZh": "快速搭一次性原型，验证某个状态模型或界面想法是否靠谱。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:research",
+      "type": "skill",
+      "name": "research",
+      "displayName": "research",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "研究与调查",
+      "descriptionEn": "Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. Use when the user wants a topic researched, docs or API facts gathered, or reading legwork delegated to a background agent.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.agents\\skills\\research\\SKILL.md"
+      ],
+      "notesZh": "针对问题查权威一手资料，把结论写成 Markdown 存进仓库。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:resolving-merge-conflicts",
+      "type": "skill",
+      "name": "resolving-merge-conflicts",
+      "displayName": "resolving-merge-conflicts",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Use when you need to resolve an in-progress git merge/rebase conflict.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.agents\\skills\\resolving-merge-conflicts\\SKILL.md"
+      ],
+      "notesZh": "解决进行中的 git 合并/变基冲突。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:setup-matt-pocock-skills",
+      "type": "skill",
+      "name": "setup-matt-pocock-skills",
+      "displayName": "setup-matt-pocock-skills",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "系统与技能管理",
+      "descriptionEn": "Configure this repo for the engineering skills — set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.agents\\skills\\setup-matt-pocock-skills\\SKILL.md"
+      ],
+      "notesZh": "配置工程技能仓库：问题跟踪器、标签词表、文档布局（首次使用前跑一次）。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:tdd",
+      "type": "skill",
+      "name": "tdd",
+      "displayName": "tdd",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions \"red-green-refactor\", or wants integration tests.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.agents\\skills\\tdd\\SKILL.md"
+      ],
+      "notesZh": "测试驱动开发：先写测试再写实现（红-绿-重构）。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:teach",
+      "type": "skill",
+      "name": "teach",
+      "displayName": "teach",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "沟通与协作",
+      "descriptionEn": "Teach the user a new skill or concept, within this workspace.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.agents\\skills\\teach\\SKILL.md"
+      ],
+      "notesZh": "在这个工作区里教你一个新技能或概念。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:to-questionnaire",
+      "type": "skill",
+      "name": "to-questionnaire",
+      "displayName": "to-questionnaire",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "头脑风暴与规划",
+      "descriptionEn": "Turn a decision you can't fully answer into a questionnaire for someone else to fill in.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.agents\\skills\\to-questionnaire\\SKILL.md"
+      ],
+      "notesZh": "把无法直接回答的决策转成问卷，交给别人填写。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:to-spec",
+      "type": "skill",
+      "name": "to-spec",
+      "displayName": "to-spec",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "头脑风暴与规划",
+      "descriptionEn": "Turn the current conversation into a spec and publish it to the project issue tracker — no interview, just synthesis of what you've already discussed.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.agents\\skills\\to-spec\\SKILL.md"
+      ],
+      "notesZh": "把当前对话整理成 spec 发布到问题跟踪器。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:to-tickets",
+      "type": "skill",
+      "name": "to-tickets",
+      "displayName": "to-tickets",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "头脑风暴与规划",
+      "descriptionEn": "Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker — edges as text in one file per ticket locally, or native blocking links on a real tracker.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.agents\\skills\\to-tickets\\SKILL.md"
+      ],
+      "notesZh": "把计划或 spec 拆成一组工单，发布到跟踪器。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:triage",
+      "type": "skill",
+      "name": "triage",
+      "displayName": "triage",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "头脑风暴与规划",
+      "descriptionEn": "Move issues and external PRs through a state machine of triage roles — categorise, verify, grill if needed, and write agent-ready briefs.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.agents\\skills\\triage\\SKILL.md"
+      ],
+      "notesZh": "对 issue/外部 PR 分级处理：归类、验证、必要时拷问、写代理简报。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:wait-what",
+      "type": "skill",
+      "name": "wait-what",
+      "displayName": "wait-what",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "沟通与协作",
+      "descriptionEn": "Stop. That last message did not land — re-pitch it.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.agents\\skills\\wait-what\\SKILL.md"
+      ],
+      "notesZh": "当上一条消息没被理解时，喊停并换种方式重新表达。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:wayfinder",
+      "type": "skill",
+      "name": "wayfinder",
+      "displayName": "wayfinder",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "头脑风暴与规划",
+      "descriptionEn": "Plan a huge chunk of work — more than one agent session can hold — as a shared map of decision tickets on your issue tracker, and resolve them one at a time until the way to the destination is clear.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.agents\\skills\\wayfinder\\SKILL.md"
+      ],
+      "notesZh": "把超大任务拆成\"决策工单地图\"，逐个解决直到路径清晰。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:wizard",
+      "type": "skill",
+      "name": "wizard",
+      "displayName": "wizard",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "系统与技能管理",
+      "descriptionEn": "Generate an interactive bash wizard that walks a human through steps only they can perform. Use when provisioning infrastructure, setting up credentials or CI secrets, walking an unfamiliar third-party dashboard, or running a one-off migration or cutover. Don't invoke this for steps the agent can perform itself.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.agents\\skills\\wizard\\SKILL.md"
+      ],
+      "notesZh": "生成交互式引导脚本，带人类一步步完成只能手动做的操作（如配密钥、建账号）。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:writing-for-agents",
+      "type": "skill",
+      "name": "writing-for-agents",
+      "displayName": "writing-for-agents",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "系统与技能管理",
+      "descriptionEn": "Writing documents for agents. Use when creating or editing skills, or modifying AGENTS.md or CLAUDE.md.",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.agents\\skills\\writing-for-agents\\SKILL.md"
+      ],
+      "notesZh": "给代理写文档：创建/编辑技能、AGENTS.md、CLAUDE.md。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "mcp:firecrawl",
+      "type": "mcp",
+      "name": "firecrawl",
+      "displayName": "firecrawl",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "研究与调查",
+      "descriptionEn": "",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "command": "npx",
+      "args": [
+        "-y",
+        "firecrawl-mcp-server"
+      ],
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\config.toml"
+      ],
+      "notesZh": "网页抓取服务：把网页内容抓下来供 AI 分析，适合调研、爬取文章和站点（需要 API Key）。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "mcp:node_repl",
+      "type": "mcp",
+      "name": "node_repl",
+      "displayName": "node_repl",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "浏览器与自动化",
+      "descriptionEn": "",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "command": "C:\\Users\\Administrator\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\f1bf3cd3a5929acd\\bin\\node_repl.exe",
+      "args": [],
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\config.toml"
+      ],
+      "notesZh": "持久的 Node.js 执行环境：可跑 JS 脚本、控制浏览器（Playwright 等）、处理文件，Codex 内置。",
+      "favorite": false,
+      "lastUsed": null
+    }
+  ],
+  "quickref": [
+    {
+      "scenario": "头脑风暴、打磨一个想法或计划",
+      "items": [
+        "grilling",
+        "grill-me",
+        "grill-with-docs",
+        "prototype",
+        "wayfinder"
+      ]
+    },
+    {
+      "scenario": "从零设计一个网页 / 落地页 / 作品集",
+      "items": [
+        "design-taste-frontend",
+        "hallmark"
+      ]
+    },
+    {
+      "scenario": "改造、美化、升级已有网站或应用",
+      "items": [
+        "redesign-existing-projects",
+        "hallmark"
+      ]
+    },
+    {
+      "scenario": "快速给现有界面做小修小补（去糙）",
+      "items": [
+        "baseline-ui"
+      ]
+    },
+    {
+      "scenario": "修复网页无障碍 / 动画卡顿 / SEO 元信息",
+      "items": [
+        "fixing-accessibility",
+        "fixing-motion-performance",
+        "fixing-metadata"
+      ]
+    },
+    {
+      "scenario": "生成或编辑图片素材",
+      "items": [
+        "imagegen"
+      ]
+    },
+    {
+      "scenario": "排查难缠的 Bug 或性能问题",
+      "items": [
+        "diagnosing-bugs",
+        "systematic-debugging",
+        "investigation-mode"
+      ]
+    },
+    {
+      "scenario": "想先写测试再写代码（TDD）",
+      "items": [
+        "tdd",
+        "test-driven-development"
+      ]
+    },
+    {
+      "scenario": "审查代码 / PR",
+      "items": [
+        "code-review",
+        "review-agent",
+        "requesting-code-review",
+        "ponytail-review"
+      ]
+    },
+    {
+      "scenario": "解决 git 合并冲突",
+      "items": [
+        "resolving-merge-conflicts"
+      ]
+    },
+    {
+      "scenario": "想尽量少写代码、用最简方案",
+      "items": [
+        "ponytail",
+        "ponytail-review",
+        "ponytail-audit"
+      ]
+    },
+    {
+      "scenario": "全网调研、搜索某个话题或平台内容",
+      "items": [
+        "agent-reach",
+        "research",
+        "firecrawl"
+      ]
+    },
+    {
+      "scenario": "查资料并写成文档存档",
+      "items": [
+        "research"
+      ]
+    },
+    {
+      "scenario": "做 Word 文档 / Excel 表格 / PPT",
+      "items": [
+        "documents",
+        "spreadsheets",
+        "presentations",
+        "officecli"
+      ]
+    },
+    {
+      "scenario": "处理或生成 PDF",
+      "items": [
+        "pdf"
+      ]
+    },
+    {
+      "scenario": "把常用文档做成可复用模板",
+      "items": [
+        "template-creator"
+      ]
+    },
+    {
+      "scenario": "测试本地网页 / 操作浏览器",
+      "items": [
+        "browser",
+        "control-in-app-browser",
+        "agent-browser"
+      ]
+    },
+    {
+      "scenario": "做图表、地图、模拟器等可视化",
+      "items": [
+        "visualize"
+      ]
+    },
+    {
+      "scenario": "用 Node.js 跑脚本或自动化",
+      "items": [
+        "node_repl"
+      ]
+    },
+    {
+      "scenario": "创建 / 安装 / 管理技能",
+      "items": [
+        "skill-creator",
+        "skill-installer",
+        "find-skills",
+        "writing-skills"
+      ]
+    },
+    {
+      "scenario": "创建 Codex 插件",
+      "items": [
+        "plugin-creator"
+      ]
+    },
+    {
+      "scenario": "问 Codex 本身怎么用、怎么设置",
+      "items": [
+        "openai-docs"
+      ]
+    },
+    {
+      "scenario": "把任务交接给另一个代理 / 继续对话",
+      "items": [
+        "handoff"
+      ]
+    },
+    {
+      "scenario": "让 AI 教你一个新概念",
+      "items": [
+        "teach"
+      ]
+    },
+    {
+      "scenario": "写 AGENTS.md 或技能文档",
+      "items": [
+        "writing-for-agents",
+        "skill-creator"
+      ]
+    },
+    {
+      "scenario": "做安全扫描 / 漏洞分析",
+      "items": [
+        "codex-security",
+        "security-scan",
+        "security-diff-scan",
+        "threat-model"
+      ]
+    },
+    {
+      "scenario": "GitHub 提 PR、处理评审、修 CI",
+      "items": [
+        "github",
+        "gh-address-comments",
+        "gh-fix-ci",
+        "yeet"
+      ]
+    },
+    {
+      "scenario": "接入 Vercel 部署 / 数据库 / AI 功能",
+      "items": [
+        "vercel",
+        "vercel-cli",
+        "vercel-storage",
+        "ai-sdk",
+        "nextjs"
+      ]
+    },
+    {
+      "scenario": "监控线上错误（Sentry）",
+      "items": [
+        "sentry"
+      ]
+    }
+  ]
+}
