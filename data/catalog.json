@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-08-12T11:24:34.367Z",
+  "scannedAt": "2026-08-12T11:49:26.092Z",
   "items": [
     {
       "id": "plugin:browser",
@@ -2434,6 +2434,28 @@
         "C:\\Users\\Administrator\\.codex\\skills\\redesign-skill\\SKILL.md"
       ],
       "notesZh": "把已有网站/应用升级到高级质感（只用于已有项目，不用于从零新建）。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:release-check",
+      "type": "skill",
+      "name": "release-check",
+      "displayName": "release-check",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "发布体检技能。当项目代码本体发生改动、准备发版或更新版本时使用：按顺序调用 /unit-test（代码健康体检）和 /security-audit（安全审计），汇总两份分级中文报告，输出\"发布体检单\"，判断是否适合发布/更新，并给出转诊建议。Use when 用户说\"发版前体检\"\"改动后体检\"\"要发新版本了检查一下\"\"能否发布\"\"发布前检查\"等。不限语言，纯只读不联网。",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\skills\\release-check\\SKILL.md"
+      ],
+      "notesZh": "",
       "favorite": false,
       "lastUsed": null
     },
