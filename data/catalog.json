@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-08-11T12:27:32.364Z",
+  "scannedAt": "2026-08-12T11:24:34.367Z",
   "items": [
     {
       "id": "plugin:browser",
@@ -7,7 +7,7 @@
       "name": "browser",
       "displayName": "Browser",
       "marketplace": "openai-bundled",
-      "version": "26.803.41515",
+      "version": "26.803.81509",
       "enabled": true,
       "category": "浏览器与自动化",
       "descriptionEn": "Browser lets ChatGPT open and control the in-app browser, mainly for local development pages and files. Use it to navigate, inspect, click, type, and take screenshots while testing pages inside ChatGPT.",
@@ -27,7 +27,7 @@
       "author": "OpenAI",
       "homepage": "https://github.com/openai/openai/tree/master/lib/browser_use/plugin",
       "sources": [
-        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-bundled\\browser\\26.803.41515"
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-bundled\\browser\\26.803.81509"
       ],
       "notesZh": "控制 Codex 内置浏览器：打开本地网页、点击、输入、截图，主要用于测试前端页面。",
       "favorite": false,
@@ -39,7 +39,7 @@
       "name": "control-in-app-browser",
       "displayName": "control-in-app-browser",
       "marketplace": "openai-bundled",
-      "version": "26.803.41515",
+      "version": "26.803.81509",
       "enabled": true,
       "category": "浏览器与自动化",
       "descriptionEn": "Control the in-app Browser for opening, navigating, inspecting visible or interactive page state, clicking, typing, screenshots, and local web testing. It can have existing signed-in sessions. For semantic operations on linked resources, prefer a purpose-built connector, API, or CLI when available.",
@@ -49,7 +49,7 @@
       "homepage": "",
       "fromPlugin": "browser",
       "sources": [
-        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-bundled\\browser\\26.803.41515\\skills\\control-in-app-browser\\SKILL.md"
+        "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-bundled\\browser\\26.803.81509\\skills\\control-in-app-browser\\SKILL.md"
       ],
       "notesZh": "控制应用内浏览器：打开页面、点击、输入、截图、本地网页测试。",
       "favorite": false,
@@ -2438,6 +2438,28 @@
       "lastUsed": null
     },
     {
+      "id": "skill:security-audit",
+      "type": "skill",
+      "name": "security-audit",
+      "displayName": "security-audit",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "代码安全专项审计技能。检查敏感信息与个人信息泄露（密钥/口令/私钥/身份证/手机号/邮箱等）、SQL 与命令注入风险、配置文件明文敏感信息、以及其它高危安全隐患（危险函数/弱加密/不安全随机数/路径穿越/日志泄露等），输出分级中文报告并给出转诊建议。Use when 用户要求检查代码中的敏感信息或个人信息泄露风险、检查 SQL 注入等安全漏洞、审计配置文件明文密钥、做代码安全体检或安全审计。不限语言，纯只读不联网，不依赖 git 变更。",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\skills\\security-audit\\SKILL.md"
+      ],
+      "notesZh": "",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
       "id": "skill:skill-installer",
       "type": "skill",
       "name": "skill-installer",
@@ -2479,6 +2501,28 @@
         "C:\\Users\\Administrator\\.codex\\skills\\taste-skill\\SKILL.md"
       ],
       "notesZh": "从零设计新网页/落地页/作品集，拒绝模板感（只用于新建）。",
+      "favorite": false,
+      "lastUsed": null
+    },
+    {
+      "id": "skill:unit-test",
+      "type": "skill",
+      "name": "unit-test",
+      "displayName": "unit-test",
+      "marketplace": "",
+      "version": "",
+      "enabled": true,
+      "category": "代码编程与工程",
+      "descriptionEn": "代码健康体检技能。对项目执行单元/代码做通用健康检查，查找漏洞、结构性错误、健壮性/安全/性能/可维护性问题，并评估基础测试覆盖，输出分级中文报告（严重/警告/建议），然后按需转诊给 tdd（写测试）、code-review（审变更）、diagnosing-bugs（查疑难 bug）、improve-codebase-architecture（改结构）。Use when 用户要求检查代码质量、找漏洞或结构性错误、做代码体检、评估测试是否够用、检查某个执行单元/模块/函数的代码健康度。不限语言，不依赖 git 变更，纯只读不联网。",
+      "keywords": [],
+      "capabilities": [],
+      "author": "",
+      "homepage": "",
+      "fromPlugin": "",
+      "sources": [
+        "C:\\Users\\Administrator\\.codex\\skills\\unit-test\\SKILL.md"
+      ],
+      "notesZh": "",
       "favorite": false,
       "lastUsed": null
     },
@@ -3250,7 +3294,7 @@
       "author": "",
       "homepage": "",
       "fromPlugin": "",
-      "command": "C:\\Users\\Administrator\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\f1bf3cd3a5929acd\\bin\\node_repl.exe",
+      "command": "C:\\Users\\Administrator\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\23828fd353da361d\\bin\\node_repl.exe",
       "args": [],
       "sources": [
         "C:\\Users\\Administrator\\.codex\\config.toml"
